@@ -7,13 +7,15 @@
     {% if not expirada %}
     <a class="boton" href="{{ path('comprar', { 'ciudad': oferta.ciudad.slug, 'slug': oferta.slug }) }}">{{ "Comprar" | trans }}</a>
     {% endif %}
+
+
+    <a class="boton" href="{{ path('cupon_shopping_cart_addtocart', { 'id': oferta.id }) }}">Add to cart</a>
 </section>
 
 <section class="galeria">
     <img alt="Fotografía de la oferta" src="{{ asset(directorio_imagenes ~ oferta.rutaFoto) }}">
 
     <p class="precio">{{ oferta.precio }} &euro; <span>{{ descuento(oferta.precio, oferta.descuento) }}</span></p>
-
     <p><strong>{{ "Condiciones" | trans }}:</strong> {{ oferta.condiciones }}</p>
 </section>
 

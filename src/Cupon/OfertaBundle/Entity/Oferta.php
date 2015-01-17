@@ -15,10 +15,12 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Cupon\OfertaBundle\Util\Util;
 
+use malotor\shoppingcart\domain\Item;
+
 /**
  * @ORM\Entity(repositoryClass="Cupon\OfertaBundle\Entity\OfertaRepository")
  */
-class Oferta
+class Oferta implements Item
 {
     /**
      * @ORM\Id
@@ -465,5 +467,10 @@ class Oferta
     public function getTienda()
     {
         return $this->tienda;
+    }
+
+
+    public function getPrice() {
+      return $this->getPrecio();
     }
 }

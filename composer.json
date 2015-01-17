@@ -20,8 +20,15 @@
         "doctrine/doctrine-fixtures-bundle"    : "dev-master",
         "doctrine/data-fixtures"               : "dev-master",
         "ideup/simple-paginator-bundle"        : "dev-master",
-        "beberlei/DoctrineExtensions"          : "dev-master"
+        "beberlei/DoctrineExtensions"          : "dev-master",
+        "malotor/shoppingcart"                  :"1.0.0"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url":  "https://github.com/malotor/shoppingcart.git"
+      }
+    ],
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",

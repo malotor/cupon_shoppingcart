@@ -86,3 +86,8 @@ portada:
 _portada:
      pattern:  /
      defaults: { _controller: FrameworkBundle:Redirect:redirect, route: portada, ciudad: '%cupon.ciudad_por_defecto%' }
+
+# Rutas importadas del bundle TiendaBundle
+ShoppingCartBundle:
+    resource: "@ShoppingCartBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -24,7 +24,8 @@ class AppKernel extends Kernel
             new Cupon\TiendaBundle\TiendaBundle(),
             new Cupon\OfertaBundle\OfertaBundle(),
             new Cupon\BackendBundle\BackendBundle(),
-            
+            new Cupon\ShoppingCartBundle\ShoppingCartBundle(),
+
             new Ideup\SimplePaginatorBundle\IdeupSimplePaginatorBundle(),
 
             // Descomenta las siguientes líneas para probar SonataAdminBundle:
