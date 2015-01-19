@@ -36,7 +36,16 @@
 </header>
 
 {% block anuncio %}{% endblock %}
-
+{% for flashMessage in app.session.flashbag.get('notice') %}
+    <p class="flash">
+        {{ flashMessage }}
+    </p>
+{% endfor %}
+{% for flashError in app.session.flashbag.get('error') %}
+    <p class="flash-error">
+        {{ flashError }}
+    </p>
+{% endfor %}
 <article {{ block('id') in ['portada', 'oferta'] ? ' class="oferta"' : '' }}>
     {% block article %}{% endblock %}
 </article>

@@ -9,3 +9,5 @@ web/uploads/*
 web/bundles/*
 web/css/*
 web/js/*
+.idea
+.DS_Store
