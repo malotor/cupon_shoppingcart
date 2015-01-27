@@ -15,7 +15,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Cupon\OfertaBundle\Util\Util;
 
-use malotor\shoppingcart\domain\Item;
+use malotor\shoppingcart\Domain\Item;
 
 /**
  * @ORM\Entity(repositoryClass="Cupon\OfertaBundle\Entity\OfertaRepository")

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d4feb122dbe0d809b4a19f435e80f5b",
+    "hash": "01fabfea913efe57244e22f9ae2920db",
     "packages": [
         {
             "name": "beberlei/DoctrineExtensions",
@@ -972,20 +972,20 @@
         },
         {
             "name": "malotor/shoppingcart",
-            "version": "1.0.0",
+            "version": "dev-1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/malotor/shoppingcart.git",
-                "reference": "2e5c988a0d56ed78a77a88e5e3e3035c7a9f8d69"
+                "reference": "e2eec7ddb5c039fe8eabe2174d827639a5ba9e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/malotor/shoppingcart/zipball/2e5c988a0d56ed78a77a88e5e3e3035c7a9f8d69",
-                "reference": "2e5c988a0d56ed78a77a88e5e3e3035c7a9f8d69",
+                "url": "https://api.github.com/repos/malotor/shoppingcart/zipball/e2eec7ddb5c039fe8eabe2174d827639a5ba9e6f",
+                "reference": "e2eec7ddb5c039fe8eabe2174d827639a5ba9e6f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.4"
@@ -1004,10 +1004,10 @@
             ],
             "description": "Shopping Cart",
             "support": {
-                "source": "https://github.com/malotor/shoppingcart/tree/1.0.0",
+                "source": "https://github.com/malotor/shoppingcart/tree/1.1.x-dev",
                 "issues": "https://github.com/malotor/shoppingcart/issues"
             },
-            "time": "2015-01-15 20:24:22"
+            "time": "2015-01-27 23:31:16"
         },
         {
             "name": "monolog/monolog",
@@ -1730,7 +1730,8 @@
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/data-fixtures": 20,
         "ideup/simple-paginator-bundle": 20,
-        "beberlei/doctrineextensions": 20
+        "beberlei/doctrineextensions": 20,
+        "malotor/shoppingcart": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

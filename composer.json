@@ -21,7 +21,7 @@
         "doctrine/data-fixtures"               : "dev-master",
         "ideup/simple-paginator-bundle"        : "dev-master",
         "beberlei/DoctrineExtensions"          : "dev-master",
-        "malotor/shoppingcart"                  :"1.0.0"
+        "malotor/shoppingcart"                  :"dev-1.1.x-dev"
     },
     "repositories": [
       {
