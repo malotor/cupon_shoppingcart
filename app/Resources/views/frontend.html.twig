@@ -54,7 +54,7 @@
     {% block aside %}
 
     <section id="login">
-        {{ render(controller('ShoppingCartBundle:Default:boxShoppingCart')) }}
+        {{ render(controller('cupon_shopping_cart.default_controller:boxShoppingCart')) }}
     </section>
     <section id="login">
         {{ render_esi(controller('UsuarioBundle:Default:cajaLogin', { 'id': block('id') })) }}
